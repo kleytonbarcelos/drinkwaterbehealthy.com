@@ -11,12 +11,18 @@
       crossorigin="anonymous"
     />
     <link href="./styles.css" rel="stylesheet" />
+    <script>
+      function preload(arrayOfImages) {
+        $(arrayOfImages).each(function () {
+          $("<img/>")[0].src = this;
+          // Alternatively we could use:
+          // (new Image()).src = this;
+        });
+      }
+      preload(["./images//bgfull.jpg", "./images//bgmini.jpg"]);
+    </script>
   </head>
   <body>
-    <div id="preload" style="display: none">
-      <img src="./images//bgfull.jpg" />
-      <img src="./images//bgmini.jpg" />
-    </div>
     <div>
       <div class="row boxLogo">
         <div class="col-md-12">
