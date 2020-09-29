@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/bg1.jpg");
+  background-image: url("./images/bgfull.jpg");
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ body {
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("./images/bg11.jpg");
+    background-image: url("./images/bgmini.jpg");
     background-position: 65%;
   }
   .boxText {
