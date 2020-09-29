@@ -1,3 +1,8 @@
+body:after {
+  position: absolute;
+  z-index: -1;
+  content: url(./images/bgfull.jpg) url(./images/bgmini.jpg);
+}
 body {
   background-image: url("./images/bgfull.jpg");
   background-position: 50% 30%;
